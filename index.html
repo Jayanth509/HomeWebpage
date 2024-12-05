@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    nav{
+        display: flex;
+            text-transform: uppercase;
+        /* justify-content: space-between; */
+        /* text-align: center; */
+    }
+    li{
+        display: inline;
+    }
+    li a{
+        text-decoration: none;
+    }
+    section{
+        background-color: rgb(218, 216, 216);
+        /* display: flex; */
+        border-radius: 25px;
+        /* justify-items: flex-end; */
+    }
+    .spacing{
+        display: flex;
+    }
+    img{
+        /* margin-left: 250px; */
+    }
+    .homes{
+        margin-left: 20px;
+    }
+    .homes p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .box{
+        border: 20px solid white;
+        border-radius: 15px;
+        height: fit-content;
+        width: fit-content;
+        background-color: white;
+    }
+    button{
+        border-radius: 15px;
+    }
+    .img1{
+        border-radius: 100px;
+        margin: 40px ;
+    }
+    .img2{
+        border-radius: 500px;
+        margin: 69px ;
+    }
+    .your{
+
+    }
+    .border1{
+        border: 2px solid white;
+        background-color: white;
+        padding: 30px;
+        margin-left:100px;
+        margin-right: 150px;
+        border-radius: 40px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .home1{
+        font-size: 40px;
+    }
+    .sidebyside{
+        display: flex;
+        /* margin-right: 25px ; */
+        padding: 25px;
+    }
+    .sideSpace{
+        margin-right: 70px ;
+
+    }
+    .img3{
+        border-radius: 50px;
+    }
+    .bot{
+        margin-top:8px ;
+    }
+    .bg{
+        background-image: url("https://assets-news.housing.com/news/wp-content/uploads/2022/04/07013406/ELEVATED-HOUSE-DESIGN-FEATURE-compressed.jpg");
+        background-size: cover;
+        height: 350px;
+        width: 400px;
+        margin-left: 100px;
+        margin-top: 40px;
+
+       
+    }
+    .border2{
+        background-image: url("https://assets-news.housing.com/news/wp-content/uploads/2022/04/07013406/ELEVATED-HOUSE-DESIGN-FEATURE-compressed.jpg");
+        background-size: cover;
+        /* height: 350px; */
+        width: 400px;
+        padding-top: 250px;
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 50px;
+        border-radius: 20px;
+    }
+    .border3{
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/023/308/053/small_2x/ai-generative-exterior-of-modern-luxury-house-with-garden-and-beautiful-sky-photo.jpg");
+        background-size: cover;
+        /* height: 350px; */
+        width: 400px;
+        padding-top: 250px;
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 50px;
+        border-radius: 20px;
+    }
+    .border4{
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/023/308/330/small_2x/ai-generative-exterior-of-modern-luxury-house-with-garden-and-beautiful-sky-photo.jpg");
+        background-size: cover;
+        /* height: 350px; */
+        width: 400px;
+        padding-top: 250px;
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 50px;
+        border-radius: 20px;
+    }
+    .border5{
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/023/307/449/small_2x/ai-generative-exterior-of-modern-luxury-house-with-garden-and-beautiful-sky-photo.jpg");
+        background-size: cover;
+        /* height: 350px; */
+        width: 400px;
+        padding-top: 250px;
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 50px;
+        border-radius: 20px;
+    }
+    .border6{
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/023/309/311/small_2x/ai-generative-exterior-of-modern-luxury-house-with-garden-and-beautiful-sky-photo.jpg");
+        background-size: cover;
+        /* height: 350px; */
+        width: 400px;
+        padding-top: 250px;
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 50px;
+        border-radius: 20px;
+    }
+    .border7{
+        background-image: url("https://www.nobroker.in/blog/wp-content/uploads/2024/03/best-low-budget-simple-house-design.webp");
+        background-size: cover;
+        /* height: 350px; */
+        width: 400px;
+        padding-top: 250px;
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 50px;
+        border-radius: 20px;
+    }
+    .ra{
+        border: 2px solid white;
+        background-color: white;
+        padding: 25px;
+        margin-left:10px;
+        margin-right: 10px;
+        border-radius: 20px;
+        /* margin-top: 250px; */
+        margin-bottom: 50px;
+        opacity: 0.7;
+        
+    }
+    .side{
+        display: flex;
+    }
+</style>
+<body>
+    <nav>
+        <ol>
+            <li> <a href="#" style="color: black">HOME</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+            <li> <a href="#" style="color: black">Landing</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+            <li> <a href="#"style="color: black;">About</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+            <li> <a href="#" style="color: black;">Team</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+            <li> <a href="#" style="color: black;">Gallery</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+            <li> <a href="#" style="color: black;">contact</a></li>
+        </ol>
+    </nav>
+    <section>
+        <div class="spacing">
+            <div class ="homes">
+                <h1 style="font-size:69px ; margin-top: 28%;">Find the perfect place  to live with your family</h1>
+                <p>Nice homes like dream home</p>
+                <div class="box">
+                    <input type="text" placeholder="enter your name" style="border-radius: 15px; border-color: none;">
+                    <button>submit</button>
+                </div>
+            </div>
+            <img src="https://media.istockphoto.com/id/1400076878/vector/architect-house-logo-architectural-and-construction-design-vector.jpg?s=612x612&w=0&k=20&c=e-k-N1FlbVHEeN2LsdzvuRKwJ67pWYVnbMrtS_RelIM=" class="img1">
+        </div>
+        <div class="spacing">
+            <div>
+                <img src="https://media.istockphoto.com/id/1400076878/vector/architect-house-logo-architectural-and-construction-design-vector.jpg?s=612x612&w=0&k=20&c=e-k-N1FlbVHEeN2LsdzvuRKwJ67pWYVnbMrtS_RelIM=" class="img2">
+            </div>
+            <div class="border1">
+                <h1 class="home1">The New Way to Find Your Home</h1>
+                <div class="sidebyside">
+                    <div class="sideSpace">
+                        <img src="https://img.freepik.com/premium-vector/orange-linear-bulb-icon-concept-eco-thinking-ray-genius-halogen-intelligence-ui-creativity-bulb-icon-isolated-white-background-flat-style-modern-logotype-design-vector-illustration_117142-353.jpg" alt="" width="100px; height=100px">
+                        <h5>Property Management</h5>
+                        <p>Sample text. Click to <br>   select the Text Element.</p>
+                    <!-- </div>
+                    <div> -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI7kdRLRIWJnEmXA5NlDmwOVnIFLvdpTyi0Q&s" alt="" class="img3"width="100px; height=100px">
+                        <h5>Property Management</h5>
+                        <p>Sample text. Click to <br>   select the Text Element.</p>
+                    </div>
+                    <div class="bot">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs7kc4LWYMTgCvPRNPCDK99Vf0O1vggwWsgA&s" alt="" class= "img3 "width="100px; height=100px">
+                        <h5>Property Management</h5>
+                        <p style="padding-bottom:8px ;">Sample text. Click to <br>   select the Text Element.</p>
+                    <!-- </div>
+                    <div> -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs7kc4LWYMTgCvPRNPCDK99Vf0O1vggwWsgA&s" alt="" class="img3"width="100px; height=100px">
+                        <h5>Property Management</h5>
+                        <p>Sample text. Click to <br>   select the Text Element.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div>
+            <h1 style="margin-left: 69px; font-size: 49px;">Properties For Rent</h1>
+            <button style="width: 100px; height: 50px  ; margin-left: 80px; background-color: black; color: white;">View More</button>
+        </div>
+        
+            <!-- <div style="display: flex;margin-top: 50px;margin-left: 50px;">
+                <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/04/07013406/ELEVATED-HOUSE-DESIGN-FEATURE-compressed.jpg" alt="" style="width: 200p;height: 200px;" hspace="40">
+                <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/04/07013406/ELEVATED-HOUSE-DESIGN-FEATURE-compressed.jpg" alt="" style="width: 200p;height: 200px;" hspace="40">
+                <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/04/07013406/ELEVATED-HOUSE-DESIGN-FEATURE-compressed.jpg" alt="" style="width: 200p;height: 200px;">
+            </div>
+            
+            <div style="display: flex;margin-top: 50px;margin-left: 50px;">
+                <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/04/07013406/ELEVATED-HOUSE-DESIGN-FEATURE-compressed.jpg" alt="" style="width: 200p;height: 200px;" hspace="40">
+                <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/04/07013406/ELEVATED-HOUSE-DESIGN-FEATURE-compressed.jpg" alt="" style="width: 200p;height: 200px;" hspace="40">
+                <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/04/07013406/ELEVATED-HOUSE-DESIGN-FEATURE-compressed.jpg" alt="" style="width: 200p;height: 200px;">
+            </div> -->
+            <div class = "side">
+                <div class="border2"> 
+                    <h1 class="ra"><b>$ 200</b><br>3 BHK with fully furnitured</h1>
+                </div>
+                <div class="border3"> 
+                    <h1 class="ra"><b>$ 200</b><br>3 BHK with fully furnitured</h1>
+                </div>
+                <div class="border3"> 
+                    <h1 class="ra"><b>$ 200</b><br>3 BHK with fully furnitured</h1>
+                </div>
+            </div>
+            <div class = "side">
+                <div class="border5"> 
+                    <h1 class="ra"><b>$ 200</b><br>3 BHK with fully furnitured</h1>
+                </div>
+                <div class="border6"> 
+                    <h1 class="ra"><b>$ 200</b><br>3 BHK with fully furnitured</h1>
+                </div>
+                <div class="border7"> 
+                    <h1 class="ra"><b>$ 200</b><br>3 BHK with fully furnitured</h1>
+                </div>
+            </div>
+    </section>
+</body>
+</html>
